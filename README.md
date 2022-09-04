@@ -9,25 +9,25 @@ El Vagrantfile aquí alojado hace uso de Oracle VirtualBox. Creará un entorno d
 Las máquinas definidas son las siguientes:
 
 - x2 nodos de balanceo de carga HTTP (`lbl`)
-  - IP lbl1: 192.168.1.131
-  - IP lbl2: 192.168.1.132
+  - IP `lbl1`: 192.168.1.131
+  - IP `lbl2`: 192.168.1.132
 - x3 nodos de aplicación (`app`)
-  - IP app1: 192.168.1.141
-  - IP app2: 192.168.1.142
-  - IP app3: 192.168.1.143
+  - IP `app1`: 192.168.1.141
+  - IP `app2`: 192.168.1.142
+  - IP `app3`: 192.168.1.143
 - x1 nodo de trabajo (`wrk`)
-  - IP wrk1: 192.168.1.151
+  - IP `wrk1`: 192.168.1.151
 - x2 nodos de balanceo de carga SQL (`sbl`)
-  - IP sbl1: 192.168.1.161
-  - IP sbl2: 192.168.1.162
+  - IP `sbl1`: 192.168.1.161
+  - IP `sbl2`: 192.168.1.162
 - x3 nodos de bases de datos para cluster Galera (`dba`)
-  - IP dba1: 192.168.1.171
-  - IP dba2: 192.168.1.172
-  - IP dba3: 192.168.1.173
+  - IP `dba1`: 192.168.1.171
+  - IP `dba2`: 192.168.1.172
+  - IP `dba3`: 192.168.1.173
 - x1 nodo de almacenamiento NFS (`sto`)
-  - IP sto1: 192.168.1.181
+  - IP `sto1`: 192.168.1.181
 - x1 nodo de caché de sesiones (`dbr`)
-  - IP dbr1: 192.168.1.191
+  - IP `dbr1`: 192.168.1.191
 
 ## Uso
 
